@@ -1,0 +1,18 @@
+[
+    {
+        "local": {
+            "host": "localhost",
+            "port": 5432,
+            "dbname": "kpi-one",
+            "user": "postgres",
+            "password": "env:DB_LOCAL_PASSWORD"
+        },
+        "dev": {
+            "host": "dev-db.example.com",
+            "port": 5432,
+            "dbname": "kpi-one-dev",
+            "user": "dev_user",
+            "password": "env:DB_DEV_PASSWORD"
+        }
+    }
+]
