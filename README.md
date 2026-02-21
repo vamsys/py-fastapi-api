@@ -2,6 +2,12 @@
 
 FastAPI application with PASETO authentication and multi-environment configuration support.
 
+## Project Regeneration Prompt
+
+This repo includes a reusable project-generation prompt in [PROMPT.md](PROMPT.md).
+
+Use it when you want to recreate this project somewhere else (same structure, stack, env vars, and endpoint behavior) by pasting the contents of `PROMPT.md` into your AI/code generation tool.
+
 ## Environment Configuration
 
 ### Local Development
